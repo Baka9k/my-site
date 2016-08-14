@@ -1,0 +1,282 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(0,0,0,0.60);
+	font-size: 15px;
+	/* Margin bottom by footer height */
+	margin-bottom: 200px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 200px;
+	background-color: #4db6ac;
+	color: #ffffff;
+	font-size: 13px;
+	box-shadow: 0 0px 17px 0 rgba(0,0,0,0.2),0 0px 20px 0 rgba(0,0,0,0.19);
+}
+.footer a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #4db6ac;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+
+
+.vk {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADJklEQVRYR2P0KV38n2EAAeOoA0ZDYDQEhmQI8HKxM/BwsoFLjx+//jC8//yd7JIEpRyQExdgsNCRYWBmYmJgYmRkACKG09efMtx89AZsATfQ0vYMVwZFSUEUCx+/+siQ17+V4c/ff3BxEQEuBgcDRaAZEHMYgBhk5uGLDxmevv4EV4fiABcTZYb8MEsUw99+/MaQ3L6e4e8/SIEpLsTDMKXIh4GDjQVFXWrHBoYX777AxYoirBgcjZQwQmbK2hMMO0/ewe4ANhZmhrlVgQwCPBwoGvtWHGPYf+4eXKw1zYVBT0UCRU1i2zqGNx++gcWE+DgZ5lYGMrAwM6Go+fjlB0Nq50aG7z9/Y3cASDTIXosh0dsIReOzN58Zsns3w4O4Ms6OwUpHDkVNTOMaho9ff4DFMgPNGLws1TB837v8KMOB8/dRxDHqAnZWFoY5lQEYoTBvy1mG9YeugzWXR9sy2OjLoxgU1bCK4fO3XwwKwPQxId8LmI5AEY8Ahy48YOhedgTDUVgrI5DrQb5ABqDUDkpoz99+ZmhOdWYwUJXEcMD3n38YenM8GJSkhVDkQImucNJ2lKCHKcDqAJDrJwMTmqwYP4pBD198YJi+/hRDbYIDOEcgg1mbzjDoKIoxWOmiRs2v33/Blj96+QHD9yABnNUxKJGBEhulYNXeKwyLd17AaQze9kBeqCWDq6kyRW7Yf+4+Q9+Ko+Q5gIuDFZygJIV5KXLExsM3GOZuOcPwH0vbi2CLSEFCgKEr252Bk50VryN+/fnL8OnrTwYRfi6s6nacuM0wdd1J4nIBuipdZXGGukRHjNIPWR2ohNt75h5DRawdg7mWDFZHLN99iWEZECMDgiEAUwyqJ4ojrRmUpFDrAZh8etdGBlCBxcbKzNACTLya8qIYjgBFQcmU7Qy3Hr+FyxHtAHCWAVYm1npyDKA6Q0tBFB4toAIoCVgUg8oKEOAGpp2CcCsGC21ZFEeA6pOe5UcYjgArJLzlALEpDpRIQY76CbQYuSaE6eflYmNgBdYvIIv//fsHVPeXAZRWyIoCYh1FqjqSooBUw4lRP+qA0RAYDQEAyhlAkAj3QQIAAAAASUVORK5CYII=);
+	border-radius: 4px;
+}
+.strava {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	background-image: url(images/strava2.png);
+	border-radius: 4px;
+}
+
+.bottomlink {
+	position: relative;
+	padding: 6px;
+}
+
+
+h1 {
+	color: #4db6ac;
+}
+
+.sec p {
+    text-indent: 10px;
+    padding-top: 10px;
+}
+
+
+.bluenav {
+	background-color: #4db6ac;
+	border-radius: 0px;
+	color: #ffffff;
+	box-shadow: 0 0px 17px 0 rgba(0,0,0,0.2),0 0px 20px 0 rgba(0,0,0,0.19);
+	border-color: #4db6ac;
+}
+
+.bluenav .navbar-brand {
+	font-family: 'Lobster', cursive;
+	color: #ffffff;
+	font-size: 24px;
+}
+.bluenav .navbar-brand:hover {
+	color: #ffffff;
+}
+
+.bluenav .navbar-nav>li>a {
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+.bluenav .navbar-nav>li>a:hover {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.bluenav .navbar-nav>.active>a {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.bluenav .navbar-nav>.active>a:hover {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.bluenav .navbar-nav>.active>a:active {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.bluenav .navbar-nav>.active>a:focus {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-toggle:focus {
+    color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.centered {
+	float: none;
+    margin: 0 auto;
+}
+
+.design {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	
+	border: solid 2px #4db6ac;
+	border-radius: 6px;
+    cursor:pointer;
+}
+
+.contacts {
+	margin-bottom: 24px;
+    cursor:pointer;
+}
+
+#map {
+	width: 600px;
+}
+
+.sec {
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+.racer {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+	margin-bottom: 24px;
+}
+.racer .img-circle {
+	border: solid 2px #4db6ac;
+	margin-bottom: 14px;
+}
+
+
+.calendar {
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+.calendar:last-of-type {
+	padding-bottom: 40px;
+}
+.h2c h2{
+	color: #4db6ac;
+	margin-left: 20px;
+	margin-bottom: 14px;
+}
+.h2c hr{
+	border: 0;
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 24px;
+}
+.date {
+	border: solid 2px #4db6ac;
+	margin-bottom: 14px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+	margin: 2px;
+	padding: 8px;
+	border-radius: 6px;
+	width: 105px;
+	height: 105px;
+}
+.name {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+.info {
+	
+}
+
+
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+
+
+.modal-header {
+	background-color: #4db6ac;
+	border-radius: 0px;
+	color: #ffffff;
+	border-color: #4db6ac;
+}
+.modal-footer {
+	background-color: #4db6ac;
+	border-radius: 0px;
+	color: #ffffff;
+	border-color: #4db6ac;
+}
+.modal-footer .btn-default {
+	background-color: #4db6ac;
+	border-radius: 0px;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+}
+.modal-footer .btn-default:active {
+	background-color: #4db6ac;
+	border-radius: 0px;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+}
+.modal-header .close {
+	color: #ffffff;
+	opacity: .8;
+}
+.modal-header .close:hover {
+	color: #ffffff;
+	opacity: .99;
+}
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+	.sec {
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	body {
+		/* Margin bottom by footer height */
+		margin-bottom: 260px;
+	}
+	.design {
+		margin: 10px;
+	}
+	.contacts {
+		margin: 10px;
+	}
+	.date {
+		margin: 8px;
+	}
+	.calendar {
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+}
+
+                                            
