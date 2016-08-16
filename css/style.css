@@ -82,28 +82,41 @@ hr {
 	text-align: center;
 	font-weight: 500;
 }
-.btn-github {
+.btn-github, .btn-demo {
 	text-transform: uppercase;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 	cursor: pointer;
-	background-color: #212121;
 	color: #FFFFFF;
 	width: 180px;
 	height: 40px;
 	font-weight: 500;
 	text-align: center;
+	margin: 6px;
 }
-.btn-github i {
+.btn-github i, .btn-demo i {
 	font-size: 28px;
 	margin-right: 10px;
 	vertical-align: middle;
 }
-.btn-github:hover {
+.btn-github:hover, .btn-demo:hover {
+	color: #FFFFFF;
+}
+.btn-github:active, .btn-demo:active {
+	color: #FFFFFF;
+}
+.btn-github:focus, .btn-demo:focus {
 	color: #FFFFFF;
 }
 
+.btn-github {
+	background-color: #212121;
+}
+.btn-demo {
+	background-color: #b71c1c;
+}
+
+
 .btn-animated {
-	color: rgba(255,255,255,1);
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -175,7 +188,6 @@ h2 {
 	font-weight: 700;
 	margin-top: 10px;
 	margin-bottom: 18px;
-	text-indent: 10px;
 }
 
 .sec p {
