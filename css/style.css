@@ -213,6 +213,10 @@ h2 {
 	margin-bottom: 18px;
 }
 
+.sec {
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
 .sec p {
     text-indent: 10px;
 }
@@ -231,6 +235,11 @@ h2 {
     width:100%;
     position:absolute;
 }
+
+
+
+
+/* Navbar */
 
 .whitenav {
 	background-color: #FFFFFF;
@@ -277,19 +286,88 @@ h2 {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+
+
+/* Modals */
+
+.modal-content {
+	border-radius: 3px;
+	background-color: #ffffff;
+	color: #676767;
+	border: 0px;
+	
+}
+.modal-header {
+	background-color: #ffffff;
+	border-bottom: 0px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border: 0px;
+}
+.modal-footer {
+	border-top: 0px;
+	border: 0px;
+}
+.modal-content .close {
+	color: #676767;
+	opacity: 0.3;
+}
+.modal-content .close:hover {
+	opacity: 0.9;
+}
+
+
+.bigmodal .modal-dialog {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+.bigmodal .modal-content {
+	height: auto;
+	min-height: 100%;
+}
+
+.bigmodal .modal-body {
+	padding: 0px;
+}
+.bigmodal .modal-footer {
+	padding: 6px;
+}
+
+.btn-footer {
+	background-color: #e53935;
+	color: #ffffff;
+	border-radius: 2px;
+	font-weight: 500;
+}
+.btn-footer:hover, .btn-footer:focus, .btn-footer:active {
+	color: #ffffff;
+}
+
+
+
+
 .centered {
 	float: none;
     margin: 0 auto;
 }
 
-
-.sec {
-	margin-top: 2px;
-	margin-bottom: 20px;
+.vcentered {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
-.
+.centercontent {
+	text-align: center;
+}
 
+.gray {
+	background-color: #9E9E9E;
+}
 
 .dont-break-out {
 
